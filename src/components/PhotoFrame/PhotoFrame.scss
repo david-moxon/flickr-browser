@@ -1,0 +1,86 @@
+
+@keyframes fadeIn {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+	from { opacity: 1; }
+	to { opacity: 0; }
+}
+
+.container {
+	width: 240px;
+	padding: 12px;
+	margin: 12px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 12px;
+	position: relative;
+}
+
+.titles {
+	margin-top: 12px;
+	color: #666;
+	line-height: 15px;
+	align-self: flex-start;
+	overflow: hidden;
+}
+
+.title {
+	font-weight: 500;
+}
+
+.description {
+	margin-top: 6px;
+	text-align: justify;
+	max-height: 75px;
+	line-height: 15px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: #666;
+	align-self: flex-start;
+	overflow: hidden;
+}
+
+.tags {
+	margin-top: 6px;
+	overflow: hidden;
+	max-width: 240px;
+	max-height: 42px;
+	align-self: flex-start;
+	overflow: hidden;
+}
+
+.tag {
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.tag:hover {
+	color: blue;
+}
+
+
+.previewInvisible {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 10;
+	padding: 12px;
+	opacity: 0;
+	animation-name: fadeOut;
+	animation-duration: 0.5s;
+	display: none;
+}
+
+.previewVisible {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 10;
+	padding: 12px;
+	animation-name: fadeIn;
+	animation-duration: 0.5s;
+}

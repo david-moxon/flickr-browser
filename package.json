@@ -1,0 +1,56 @@
+{
+  "name": "flickr-browser",
+  "version": "1.0.0",
+  "description": "A tool for browsing and viewing publically available Flickr photos",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "webpack-dev-server --mode development --hot",
+    "dev-open": "webpack-dev-server --mode development --hot --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/david-moxon/flickr-browser.git"
+  },
+  "author": "David Moxon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/david-moxon/flickr-browser/issues"
+  },
+  "homepage": "https://github.com/david-moxon/flickr-browser#readme",
+  "dependencies": {
+    "@material-ui/core": "^3.3.2",
+    "@material-ui/icons": "^3.0.1",
+    "apisauce": "^1.0.0",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-redux": "^5.1.0",
+    "react-visibility-sensor": "^5.0.2",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "reduxsauce": "^1.0.0",
+    "seamless-immutable": "^7.1.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.8.0",
+    "eslint-plugin-jsx": "0.0.2",
+    "eslint-plugin-react": "^7.11.1",
+    "favicons-webpack-plugin": "0.0.9",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.4",
+    "redux-devtools-extension": "^2.13.5",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}

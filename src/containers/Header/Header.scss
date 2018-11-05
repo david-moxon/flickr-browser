@@ -1,0 +1,40 @@
+
+.container {
+	 padding: 12px;
+	 display: flex;
+	 flex-direction: column;
+	 align-items: center;
+}
+
+.labelInitial {
+	font-size: 24px;
+	color: #666;
+	margin-top: 48px;
+	margin-bottom: 12px;
+}
+
+.label {
+	font-size: 18px;
+	color: #666;
+	margin-top: 48px;
+	margin-bottom: 12px;
+}
+
+.subLabel {
+	font-size: 14px;
+	color: #666;
+	margin-bottom: 12px;
+}
+
+.tag {
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.tag:hover {
+	color: red;
+}
+
+.search {
+	width: 300px;
+}
