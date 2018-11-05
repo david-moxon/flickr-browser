@@ -7,4 +7,25 @@ It's a React/Redux app built in ES6 JavaScript, transpiled through Babel.
 
 It consumes the Flickr API to allow users to browse and view publically available photos.
 
+## Installation Instructions
+
+1. Clone the repo
+
+```
+git clone git@github.com:https://github.com/david-moxon/flickr-browser.git
+```
+
+2. Install dependencies
+
+```
+npm install
+```
+
+3. Run the dev server
+
+```
+npm run dev
+```
+
+
 @david-moxon
