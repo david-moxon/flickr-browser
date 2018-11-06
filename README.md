@@ -12,7 +12,7 @@ It consumes the Flickr API to allow users to browse and view publically availabl
 1. Clone the repo
 
 ```
-git clone git@github.com:https://github.com/david-moxon/flickr-browser.git
+git clone git@github.com:david-moxon/flickr-browser.git
 ```
 
 2. Install dependencies
