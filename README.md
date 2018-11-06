@@ -15,17 +15,31 @@ It consumes the Flickr API to allow users to browse and view publically availabl
 git clone git@github.com:david-moxon/flickr-browser.git
 ```
 
-2. Install dependencies
+2. Go to the root directory
+
+```
+cd flickr-browser
+```
+
+3. Install dependencies
 
 ```
 npm install
 ```
 
-3. Run the dev server
+4. Run the dev server
 
 ```
 npm run dev-open
 ```
+
+## Further Changes
+
+Things I would like to do to improve this:
+
+- Fade out the preview when moving off the photo
+- Correct the preview showing off-screen for those toward the right-hand side of the page
+- Correctly format the total number of photos in the heading (e.g. "Showing 13,241 photos...")
 
 
 @david-moxon
