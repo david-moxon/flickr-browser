@@ -24,7 +24,7 @@ npm install
 3. Run the dev server
 
 ```
-npm run dev
+npm run dev-open
 ```
 
 
