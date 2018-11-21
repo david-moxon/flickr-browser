@@ -49,6 +49,7 @@ npm run dev-open
 
 Things I would like to do to improve this:
 
+- Host a full-page photo page, accessed by clicking on a photo
 - Fade out the preview when moving off the photo
 - Correct the preview showing off-screen for those toward the right-hand side of the page
 - Correctly format the total number of photos in the heading (e.g. "Showing 13,241 photos...")
